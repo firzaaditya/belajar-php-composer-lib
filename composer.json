@@ -1,0 +1,18 @@
+{
+    "name": "firza/belajar-composer",
+    "description": "library Composer pertama",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Firza Aditiya"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firza\\BelajarComposer\\" : "src/"
+        }
+    }
+}
